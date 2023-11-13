@@ -29,7 +29,7 @@ public class HomeCalc {
 
     public static float makeDivide (int i1, int i2) {
         System.out.print("В результате деления ");
-        return  (float) i1 / i2;
+        return (float) i1 / i2;
     }
 }
 
