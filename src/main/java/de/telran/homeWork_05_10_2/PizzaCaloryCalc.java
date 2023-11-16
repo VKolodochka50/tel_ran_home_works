@@ -3,10 +3,11 @@ package de.telran.homeWork_05_10_2;
 public class PizzaCaloryCalc {
     public static void main(String[] args) {
 
-        int defaultPizza = 24;
-        int newPizza = 28;
-        int cmCalory = 40;
+        int defaultPizza = 24; //According to requirements - this is default Pizza size in cm.
+        int newPizza = 28; //Extended Pizza for people who thinking that they are too skinny.
+        int cmCalory = 40; //Default nutritive value per square cm.
         double pi = Math.PI;
+        //Temporary variables for the Area and nutrition calculation results, just to make output command shorter
         int defAreaCircle = circleArea(defaultPizza, pi);
         int newAreaCircle = circleArea(newPizza, pi);
         int defPizzaCalory = caloryCalc(circleArea(defaultPizza, pi), cmCalory)/100;
@@ -28,9 +29,7 @@ public class PizzaCaloryCalc {
     }
 
     public static int circleArea (int myD, double doub2) {
-        int area = (int) (doub2 * myD * myD);
-        //System.out.println(area);
-      return area;
+        return (int) (doub2 * myD * myD);
     }
 
     public static int caloryCalc (int myI, int myI2) {
