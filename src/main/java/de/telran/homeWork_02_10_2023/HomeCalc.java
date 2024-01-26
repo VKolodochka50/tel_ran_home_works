@@ -1,15 +1,15 @@
 package de.telran.homeWork_02_10_2023;
 
 public class HomeCalc {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
 
      int myInt1 = 12;
      int myInt2 = 7;
 
-        System.out.println(myInt1+ " и " +myInt2+ " получаем " +makePlus(myInt1, myInt2));
-        System.out.println(myInt2+ " из " +myInt1+ " получаем " +makeMinus(myInt1, myInt2));
-        System.out.println(myInt1+ " на " +myInt2+ " получаем " +makeMultiply(myInt1, myInt2));
-        System.out.println(myInt1+ " на " +myInt2+ " получаем " +makeDivide(myInt1, myInt2));
+        System.out.println(myInt1+ " и " +myInt2+ " = " +makePlus(myInt1, myInt2));
+        System.out.println(myInt2+ " из " +myInt1+ " = " +makeMinus(myInt1, myInt2));
+        System.out.println(myInt1+ " на " +myInt2+ " = " +makeMultiply(myInt1, myInt2));
+        System.out.println(myInt1+ " на " +myInt2+ " = " +makeDivide(myInt1, myInt2));
 
     }
     public static int makePlus (int i1, int i2) {
