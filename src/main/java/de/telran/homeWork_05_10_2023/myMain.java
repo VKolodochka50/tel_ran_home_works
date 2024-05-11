@@ -24,10 +24,12 @@ public class myMain {
 
         //Task 2
         System.out.println("to " +plus(a, b));
-        System.out.println("to " +minus(a, b));
+        System.out.println("to  " +minus(a, b));
         System.out.println("to " +myMultiply(a, b));
         String div = String.format("%.2f", +divide(a, b));
         System.out.println("to " +div);
+
+        charSubstract(myStr);
 
     }
 
@@ -48,6 +50,19 @@ public class myMain {
     }
 
 
+    private static void charSubstract(String str) {
+        String result ="";
+        for (int i =0; i < str.length(); i++) {
+            char myChar = str.charAt(i);
+            if (myChar == 'a') {
+                myChar ='o';
+                result += String.valueOf(myChar);
+            }
+            else result += String.valueOf(myChar);
+        }
+        //result =result.substring(0, result.length()-1);
+        System.out.println("replace by char in For cycle =" +result);
+    }
 
 }
 
