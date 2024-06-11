@@ -1,6 +1,6 @@
 package de.telran.homeWork_05_10_2;
 
-public class PizzaCaloryCalc {
+public class PizzaCaloricCalc {
     public static void main(String[] args) {
 
         int defaultPizza = 24; //According to requirements - this is default Pizza size in cm.
@@ -40,4 +40,4 @@ public class PizzaCaloryCalc {
 //Напишите программу, которая вычисляет, сколько лишних калорий будет,
 // если вместо пиццы диаметром 24 см вы купите пиццу диаметром 28 см.
 //Чтобы решить эту проблему, предположим,
-// что каждый квадратный сантиметр пиццы соде ржит 40 калорий.
+// что каждый квадратный сантиметр пиццы содержит 40 калорий.
